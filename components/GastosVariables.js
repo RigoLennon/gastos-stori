@@ -300,4 +300,4 @@ const GastosVariables = () =>{
     )
 }
 
-export default GastosFijos;
+export default GastosVariables;
