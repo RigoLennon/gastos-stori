@@ -27,7 +27,6 @@ const Cards = () =>{
                                 (
                                 <div>
                                     <GastosFijos />
-                                    <h6 className="white-text">Total de gastos fijos: $</h6>
                                 </div>
                                 )
                             }
@@ -37,7 +36,7 @@ const Cards = () =>{
 
                 <div className="col s12 m6">
                     <div className="card teal lighten-1">
-                        <div className="card-content white-text">
+                        <div className="card-content black-text">
                             <span className="card-title">Gastos Variables</span>
                             <p>Añade tus gastos fijos que tienes en el mes</p>
                         </div>
@@ -49,7 +48,6 @@ const Cards = () =>{
                                 (
                                     <div>
                                         <GastosVariables />
-                                        <h6 className="white-text">Total de gastos fijos: $</h6>
                                     </div>
                                 )
                             }
